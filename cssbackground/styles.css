@@ -1,0 +1,22 @@
+div {
+  height: 400px;
+  color: red;
+  height: 200px;
+}
+div {
+  height: 200px;
+  color: blue;
+}
+
+.big-img {
+  background: url("./image/big.jpg");
+}
+.small-img {
+  border: 2px solid red;
+  background: url("./image/small.jpg");
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+}
+.folder-img {
+  background: url("./image/pic.jpeg");
+}
