@@ -1,22 +1,60 @@
-div {
-  height: 400px;
-  color: red;
-  height: 200px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 div {
-  height: 200px;
-  color: blue;
+  /* height: 400px; */
+  min-height: 100vh;
+  /* color: red; */
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .big-img {
-  background: url("./image/big.jpg");
+  background: url("./big.jpeg");
+  /* background-repeat: round; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
+
 .small-img {
   border: 2px solid red;
-  background: url("./image/small.jpg");
+  /* background: url("./small.jpg"); */
+  background: url("./folder/folder.jpeg");
   background-repeat: repeat;
   background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: space;
+  background-repeat: round;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: bottom;
+  background-position: left;
+  background-position: right;
+  background-position: top;
+  /* background-position: 0 0; */
+  /* background-position: 20% 50%; */
+  /* background-position: 100% 100%; */
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 .folder-img {
-  background: url("./image/pic.jpeg");
+  /* background: url("./folder/folder.jpeg"); */
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background: url("./big.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
 }
